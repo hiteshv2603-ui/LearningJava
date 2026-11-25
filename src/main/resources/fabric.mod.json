@@ -1,0 +1,28 @@
+{
+    "schemaVersion": 1,
+    "id": "the_junk_foods_addon",
+    "version": "${version}",
+    "name": "The Junk Foods Addon",
+    "description": "A Minecraft addon for junk foods that include soda, burger, chips, candy, french fries, and ice cream.",
+    "authors": ["Hitesh Vinothkumar"],
+    "contact": {
+        "homepage": "",
+        "sources": ""
+    },
+    "license": "MIT",
+    "icon": "assets/the_junk_foods_addon/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "dev.junk.foods.The Junk Foods Addon"
+        ]
+    },
+    "mixins": [
+        "the_junk_foods_addon.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.15.0",
+        "minecraft": "~26.3",
+        "java": ">=25"
+    }
+}
